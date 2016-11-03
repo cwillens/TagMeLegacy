@@ -22,6 +22,7 @@ export default class Memory extends React.Component {
     super(props);
     this.state = {
       image: this.props.image,
+      location: this.props.location,
       tags: [],
       filteredTags: [],
       status: false,
